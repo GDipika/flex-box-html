@@ -1,0 +1,169 @@
+.flex-container {
+    color: black;
+    width: 100%;
+    margin-top: 100PX;
+    justify-content: center;
+    /* // in row// */
+    /* flex-direction:column;    //one by one in column */
+    border: 1px solid;
+    background-color: skyblue;
+    position: relative;
+    justify-content: center;
+}
+
+/* //RELATIVE:top, bottom, left, right  */
+/* //fixed:positions relative to the browser window */
+/* //absolute:relative to parent */
+/* //STICKY:while scrolling, it will stick// */
+
+
+.flex-box1 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.flex-box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 80, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    position: absolute;
+    left: 250PX;
+}
+
+.flex-box3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(86, 255, 80);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    position: fixed;
+    left: 500PX;
+    bottom: 50PX;
+    position: inherit;
+    top: 200px
+}
+
+.flex-box4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(121, 80, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    left: 730px;
+    position: inherit;
+    bottom: 200px;
+}
+
+.flex-box5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 80, 156);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    bottom: 590px;
+    position: inherit;
+    left: 970px;
+}
+
+.container {
+    color: black;
+    width: 100%;
+    height: 2000px;
+    margin-top: 100PX;
+    justify-content: flex-end;
+    /* // in row// */
+    display: flex;
+    /* flex-direction:column;    //one by one in column */
+    border: 1px solid;
+    background-color: skyblue;
+}
+
+.flex-box6 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 80px;
+    margin: 10px;
+    margin-right: auto;
+    right: 4px;
+    bottom: 2px;
+}
+
+.flex-box7 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(226, 80, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 80px;
+    margin: 10px;
+    margin-right: 900px;
+}
+
+.flex-box8 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(86, 255, 80);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 80px;
+    margin: 10px;
+    position: fixed;
+    left: 2px;
+    bottom: 2px;
+}
+
+.flex-box9 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(121, 80, 255);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 80px;
+    margin: 10px;
+    position: static;
+}
+
+.flex-box10 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 80, 156);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 80px;
+    margin: 10px;
+}
+
+.flex-box11 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(190, 8, 17);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 80px;
+    margin: 10px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
